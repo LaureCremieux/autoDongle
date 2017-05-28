@@ -1,0 +1,5 @@
+# Action when dongle is inserted. Runs script dongleAlert that prompts "dongle detected"
+ACTION=="add", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1405", RUN+="/bin/sh /home/vivacitylaptop/autoDongle/setUpPackage/dongleAlert.sh"
+ACTION=="add", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1420", RUN+="/bin/sh /home/vivacitylaptop/autoDongle/setUpPackage/dongleAlert.sh"
+ACTION=="add", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1038", RUN+="/bin/sh /home/vivacitylaptop/autoDongle/setUpPackage/dongleAlert.sh"
+ACTION=="add", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1040", RUN+="/bin/sh /home/vivacitylaptop/autoDongle/setUpPackage/dongleAlert.sh"
