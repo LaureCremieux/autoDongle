@@ -46,3 +46,4 @@ cd ..
 
 sudo cp $PWD/setUpPackage/85-my_usb_device_rule.rules /etc/udev/rules.d/85-my_usb_device_rule.rules
 sudo udevadm control --reload
+sudo apt-get install zenity
